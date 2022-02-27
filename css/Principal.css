@@ -1,0 +1,100 @@
+.First{
+    background-color: white;
+    width: 100%;
+}
+
+.page1{
+    display: flex;
+}
+
+.page1 ul{
+
+    text-align: center;
+    margin: 100px;
+    padding-top: 50px;
+    font-family: Cambria;
+    font-size: 45px;
+}
+
+.page1 ul li .firstPhrase{
+    color: #1AB8C9;
+    height: fit-content;
+}
+
+.page1 ul li .secondPhrase{
+    color: #ABF7FF;
+    font-weight: bold;
+}
+
+.button-learn{
+    background-color: #9ADFE2;
+    border-radius: 10px; 
+    width: max-content;
+    text-decoration: none;  
+}   
+
+.button-learn a {
+    font-weight: bold;
+    font-family: Cambria;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 0 10px 0 10px;
+  
+}
+
+.button-learn:hover{
+    background-color: #1AB8C9;
+   
+}
+
+.page1 ul li img{
+    width: 10%;
+    height: 20%;
+    border-radius: 180px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+#img-page{
+
+    width: 50%;
+    height: 30%;
+    
+}
+@media screen and (min-width: 600px) {
+    #img-page{
+        width: 50%;
+    }
+    .page1 ul {
+        width: 70%;
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .First{
+        width: auto;
+        height: 90vh;
+        background:
+            linear-gradient(
+            rgba(0,0,0,.5),rgba(0,0,0,.5)
+            ),
+            url(../img/img-page.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .page1 ul {
+        text-align: left;
+        margin-left: 10%;
+    }
+    .marginP {
+        margin-top: 30%;
+    }
+    #img-page{
+        display: none;
+    }
+}

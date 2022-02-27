@@ -1,0 +1,33 @@
+.footer{
+    background-color: #365B6D;
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 100px;
+}
+
+.footer-col{
+    margin-right: 10%;
+    width: max-content;
+    height: auto;
+}
+
+.footer-col ul li{
+    margin-bottom: 5px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: white;
+}
+.footer-col h4{
+    color: white;
+    margin-bottom: 10px;
+    text-decoration:underline;
+    text-transform: uppercase;
+
+}
+
+.copyright{
+    color: white;
+}

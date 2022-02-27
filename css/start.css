@@ -1,0 +1,29 @@
+.wallpaper {
+    background-image: url(../img/img-wallpaper.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 832px;
+}
+
+    .wallpaper ul {
+        border-radius: 360px;
+        width: max-content;
+    }
+
+    .wallpaper ul li {
+        
+        display: block;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .wallpaper ul li img {
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 360px;
+    }
+
+.wallpaper ul li a {
+
+}
