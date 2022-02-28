@@ -1,24 +1,24 @@
 .FirstInformation{
-    height: 900px;
+    height: fit-content;
     padding: 100px;
 }
 
-.FirstInformation ul {
+.FirstInformation ol {
     width: 100%;
     height: 50%; 
     display: flex;
 }
 
-.FirstInformation ul li{
+.FirstInformation ol li{
     width: 50%;
 }
-.FirstInformation ul li img{
+.FirstInformation ol li img{
     width: 80%;
     height: 70%;
     margin: 0 auto;
 }
 
-.FirstInformation ul li p{
+.FirstInformation ol li p{
     margin: 0 auto;
     font-family: cambria;
     color: black;
@@ -26,11 +26,43 @@
     text-align: left;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+    .FirstInformation{
+        padding: 20px;
+    }
     .FirstInformation div{
         border: 2px rgba(0, 0, 0, 0.178) solid;
     }
-    .planning-time ul{
-        display: block;
+    .informations {
+        margin-bottom: 20px;
     }
+    .informations:hover {
+        transform: scale(0.9);
+    }
+    .informations ol{
+        display:grid;
+    }
+    .informations ol li{
+        width: auto;
+        height: auto;
+    }
+
+    .informations ol li p {
+        font-size: 15px;
+        
+    }
+    .img-inf{
+        order: 1;
+    }
+    #img-inf{
+        width: 100%;
+        height: 100%;
+        border-bottom: 2px rgba(0, 0, 0, 0.178) solid;
+    }
+    .text-inf{
+        order: 2;
+        padding: 20px;
+    }
+    
+    
 }

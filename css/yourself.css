@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 1000px) {
     .Yourself ul li {
-        background: black;
+        background: #365B6D;
         display: flex;
     }
     .Yourself ul li p {
@@ -43,7 +43,7 @@
         text-align: right;
     }
     #img-yourself{
-        display: inline-flex;
+        display: none;
         width: 100%;
         height: 100%;
         opacity: 20%;
