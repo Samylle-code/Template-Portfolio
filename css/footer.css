@@ -1,11 +1,15 @@
 .footer{
     background-color: #365B6D;
-    position: relative;
-    display: flex;
-    width: 100%;
-    padding: 100px;
+    width: auto;
 }
 
+.move{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding: 100px;
+    margin-right: 20%;
+}
 .footer-col{
     margin-right: 10%;
     width: max-content;
@@ -27,6 +31,8 @@
     text-transform: uppercase;
 
 }
+
+
 
 .copyright{
     color: white;

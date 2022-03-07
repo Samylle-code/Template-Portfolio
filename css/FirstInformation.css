@@ -5,12 +5,14 @@
 
 .FirstInformation ol {
     width: 100%;
-    height: 50%; 
+    
     display: flex;
 }
 
 .FirstInformation ol li{
+    transform: scale(0.9);
     width: 50%;
+    height: 100%; 
 }
 .FirstInformation ol li img{
     width: 80%;
@@ -18,12 +20,25 @@
     margin: 0 auto;
 }
 
+.text-inf{
+    margin-top: 50px;
+}
 .FirstInformation ol li p{
     margin: 0 auto;
     font-family: cambria;
     color: black;
     font-size: 24px;
     text-align: left;
+}
+
+.informations{
+    border: 2px rgba(0, 0, 0, 0.26) solid;
+    padding: 20px; 
+    margin-bottom: 50px;
+}
+
+.informations:hover{
+    transform: scale(0.9);
 }
 
 @media screen and (max-width: 1000px) {
