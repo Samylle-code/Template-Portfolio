@@ -1,3 +1,4 @@
+@media screen and (min-width: 1000px) {
 .FirstInformation{
     height: fit-content;
     padding: 100px;
@@ -33,14 +34,13 @@
 
 .informations{
     border: 2px rgba(0, 0, 0, 0.26) solid;
-    padding: 20px; 
     margin-bottom: 50px;
 }
 
 .informations:hover{
     transform: scale(0.9);
 }
-
+}
 @media screen and (max-width: 1000px) {
     .FirstInformation{
         padding: 20px;
